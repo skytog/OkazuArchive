@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Okazu Archive</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>Okazu Archive</h1>
+            <div id="language-select-container" class="language-select-container">
+                <label for="language-select"><h3>言語</h3></label>
+                <select id="language-select">
+                    <option value="ja">日本語</option>
+                    <option value="en">English</option>
+                </select>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="section">
+            <h2 id="category-title">カテゴリ選択</h2>
+            <select id="category-select">
+                <option value="all">すべて</option>
+                <option value="bodyParts">部位</option>
+                <option value="playStyle">プレイスタイル</option>
+                <option value="fetish">フェチ</option>
+            </select>
+        </div>
+        <div class="section">
+            <h2 id="okazuGenerator">オカズを生成</h2>
+            <button id="generate-btn">出力</button>
+            <p id="okazu-display"></p>
+        </div>
+        <div class="section">
+            <h2 id="OkazuHistory">オカズの履歴</h2>
+            <button id="clear-history-btn">履歴クリア</button>
+            <ul id="history-list"></ul>
+        </div>
+    </main>
+    <script type="module" src="/src/main.js"></script>
+</body>
+</html>

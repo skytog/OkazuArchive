@@ -1,0 +1,15 @@
+{
+    "title": "Okazu Archive",
+    "languageSelect": "言語",
+    "categorySelect": "カテゴリ選択",
+    "okazuGenerator": "オカズ ジェネレータ",
+    "generateOkazuBtn": "オカズの生成",
+    "OkazuHistory": "あなたのおかず履歴",
+    "clearHistoryBtn": "履歴クリア",
+    "categories": {
+        "all": "すべて",
+        "bodyParts": "部位",
+        "playStyle": "プレイスタイル",
+        "fetish": "フェチ"
+    }
+}

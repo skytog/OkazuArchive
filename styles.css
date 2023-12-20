@@ -1,0 +1,101 @@
+/* Reset some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+}
+
+header {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    margin: auto;
+}
+
+header h1 {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.language-select-container {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+h1, h2 {
+    margin-bottom: 20px;
+}
+
+.section {
+    width: 90%; /* Increase the width of the sections */
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+main {
+    width: 100%; /* Make the main content take up the full width */
+    margin: 20px auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#category-title {
+    font-size: 24px;
+}
+#category-select {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+}
+
+#generate-btn, #clear-history-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+}
+
+#generate-btn:hover, #clear-history-btn:hover {
+    background-color: #0056b3;
+}
+
+#okazu-display {
+    margin: 20px 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#history-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+#history-list li:last-child {
+    border-bottom: none;
+}

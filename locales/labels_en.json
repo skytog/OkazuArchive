@@ -1,0 +1,15 @@
+{
+    "title": "Okazu Archive",
+    "languageSelect": "Language",
+    "categorySelect": "Category Select",
+    "okazuGenerator": "Okazu Generator",
+    "generateOkazuBtn": "Generate Okazu",
+    "OkazuHistory": "Okazu History",
+    "clearHistoryBtn": "Clear History",
+    "categories":{
+        "all": "All",
+        "bodyParts": "Body Parts",
+        "playStyle": "Play Style",
+        "fetish": "Fetish"
+    }
+}
